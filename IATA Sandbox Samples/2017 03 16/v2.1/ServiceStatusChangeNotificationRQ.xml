@@ -1,0 +1,12 @@
+<IATA_ServiceStatusChangeNotificationRQ Version="2017.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" PrimaryLangID="EN" AltLangID="EN" xmlns="http://www.iata.org/IATA/EDIST/2017.1">
+	<Order OrderID="ORD123PP" Owner="Z9">
+		<OrderItem OrderItemID="item_1_1" Owner="Z9">
+			<Service ServiceID="sid_1009_1" Owner="Z9">
+				<ServiceStatus>Service Delivery DELIVERED</ServiceStatus>
+			</Service>
+			<Service ServiceID="sid_1011_2" Owner="Z9">
+				<ServiceStatus>Service Delivery DELIVERED</ServiceStatus>
+			</Service>
+		</OrderItem>
+	</Order>
+</IATA_ServiceStatusChangeNotificationRQ>

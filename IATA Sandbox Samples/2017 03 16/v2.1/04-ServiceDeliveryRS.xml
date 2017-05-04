@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<IATA_ServiceDeliveryRS Version="2017.1" xmlns="http://www.iata.org/IATA/EDIST/2017.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Order OrderID="ORD123PP" Owner="Z9">
+		<OrderItem OrderItemID="item_1_1" Owner="Z9">
+			<Service ServiceID="sid_1009_1">
+				<ServiceSelection>
+					<ServiceDefinition ServiceDefinitionID="sid_1009_1_28">
+						<Name>WFI</Name>
+						<Descriptions>
+							<Description/>
+						</Descriptions>
+					</ServiceDefinition>
+				</ServiceSelection>
+				<OfferValidDates>
+					<Start Timestamp="37176-04-09T07:07:11.212+03:00"/>
+					<End Timestamp="37176-04-09T07:07:11.212+03:00"/>
+				</OfferValidDates>
+				<PartnerID>SampleId_1</PartnerID>
+				<ServiceSettlementValue>
+					<Method>
+						<Code>sampleCode</Code>
+					</Method>
+				</ServiceSettlementValue>
+			</Service>
+		</OrderItem>
+		<OrderItem OrderItemID="item_1_2" Owner="Z9">
+			<Service ServiceID="sid_1009_2">
+				<ServiceSelection>
+					<ServiceDefinition ServiceDefinitionID="sid_1009_2_28">
+						<Name>WFI</Name>
+						<Descriptions>
+							<Description/>
+						</Descriptions>
+					</ServiceDefinition>
+				</ServiceSelection>
+				<OfferValidDates>
+					<Start Timestamp="37176-04-09T07:07:11.212+03:00"/>
+					<End Timestamp="37176-04-09T07:07:11.212+03:00"/>
+				</OfferValidDates>
+				<PartnerID>SampleId_2</PartnerID>
+				<ServiceSettlementValue>
+					<Method>
+						<Code>sampleCode</Code>
+					</Method>
+				</ServiceSettlementValue>
+			</Service>
+		</OrderItem>
+	</Order>
+</IATA_ServiceDeliveryRS>
