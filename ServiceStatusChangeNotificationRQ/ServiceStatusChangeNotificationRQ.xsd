@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2014 (x64) (http://www.altova.com) by JRT (JR Technologies, Inc.) -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:altova="http://www.altova.com/xml-schema-extensions" elementFormDefault="qualified" attributeFormDefault="unqualified"  version="0.001 " id="IATA_17.1_OneOrder_A3_2.1">
+	<xsd:include schemaLocation="edist_commontypes.xsd"/>
+	<xsd:include schemaLocation="edist_structures.xsd"/>
+	<xsd:element name="IATA_ServiceStatusChangeNotificationRQ">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="Passengers" minOccurs="0">
+					<xsd:annotation>
+						<xsd:documentation source="description" xml:lang="en">Passenger and Group information.</xsd:documentation>
+					</xsd:annotation>
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element ref="Passenger" minOccurs="0" maxOccurs="unbounded"/>
+							<xsd:element name="Group" type="GroupType" minOccurs="0">
+								<xsd:annotation>
+									<xsd:documentation source="description" xml:lang="en">Group Information.</xsd:documentation>
+								</xsd:annotation>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="Order" type="OrderCoreType" maxOccurs="unbounded">
+					<xsd:annotation>
+						<xsd:documentation source="description" xml:lang="en">Order information.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+			</xsd:sequence>
+			<xsd:attributeGroup ref="IATA_PayloadStdAttributes"/>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
