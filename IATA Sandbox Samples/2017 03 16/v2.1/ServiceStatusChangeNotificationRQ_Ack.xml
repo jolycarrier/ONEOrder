@@ -1,5 +1,0 @@
-<Acknowledgement xmlns:n1="http://www.iata.org/IATA/EDIST" Version="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.iata.org/IATA/EDIST/2017.1">
-	<Document/>
-	<StatusCode>OK</StatusCode>
-	<StatusMessage>Your Order Status has been Changed.</StatusMessage>
-</Acknowledgement>
